@@ -1,6 +1,8 @@
-merkle-tree
+merkle-tree (**WIP**) [![Build Status](https://travis-ci.org/solomonhawk/merkle-tree.svg?branch=master)](https://travis-ci.org/solomonhawk/merkle-tree)
 ===========
-[![Build Status](https://travis-ci.org/solomonhawk/merkle-tree.svg?branch=master)](https://travis-ci.org/solomonhawk/merkle-tree)
+
+**Caution:** Incomplete, not yet published, and probably awful.
+
 
 A JavaScript implementation of Merkle Trees
 
