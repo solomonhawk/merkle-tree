@@ -1,0 +1,28 @@
+{
+  "name": "merkle-tree",
+  "version": "1.0.0",
+  "description": "A JavaScript Implementation of Merkle Trees",
+  "main": "dist/merkle-tree.js",
+  "scripts": {
+    "build": "webpack lib/main.js dist/merkle-tree.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:solomonhawk/merkle-tree.git"
+  },
+  "keywords": [
+    "merkle",
+    "tree",
+    "merkle-tree"
+  ],
+  "author": "Solomon Hawk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/solomonhawk/merkle-tree/issues"
+  },
+  "homepage": "https://github.com/solomonhawk/merkle-tree",
+  "dependencies": {
+    "MD5": "^1.2.1"
+  }
+}
