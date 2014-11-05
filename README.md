@@ -16,8 +16,7 @@ If you're looking for something to use I would recommend that you [search NPM](h
 // Include the library
 var Tree = require('merkle-tree')
 
-// Optionally set the hash function when you require it if you know you only
-// need one
+// Optionally set the hash function when you require
 // var Tree = require('merkle-tree').use('md5')
 
 

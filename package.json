@@ -4,10 +4,14 @@
   "description": "A JavaScript Implementation of Merkle Trees",
   "main": "lib/main.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack -p",
+    "dev": "webpack -d -v --watch",
+    "prepublish": "npm run build"
   },
   "jest": {
-    "testDirectoryName": "tests"
+    "testDirectoryName": "tests",
+    "scriptPreprocessor": "<rootDir>/test/preprocessor.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +34,9 @@
     "crypto": "0.0.3"
   },
   "devDependencies": {
-    "jest-cli": "^0.1.18"
+    "esnext": "^0.13.0",
+    "esnext-loader": "^1.1.0",
+    "jest-cli": "^0.1.18",
+    "webpack": "^1.4.12"
   }
 }
