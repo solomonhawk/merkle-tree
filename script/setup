@@ -1,5 +1,3 @@
 #!/bin/bash
 
 npm install
-
-ln -s -f ../../script/pre-push .git/hooks/pre-push

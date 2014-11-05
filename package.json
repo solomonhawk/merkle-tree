@@ -9,6 +9,13 @@
     "dev": "webpack -d -v --watch",
     "prepublish": "npm run build"
   },
+  "pre-push": [
+    "npm run build",
+    "npm test"
+  ],
+  "pre-commit": [
+    "npm test"
+  ],
   "jest": {
     "testDirectoryName": "tests",
     "scriptPreprocessor": "<rootDir>/test/preprocessor.js"
