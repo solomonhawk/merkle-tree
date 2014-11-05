@@ -6,8 +6,6 @@ merkle-tree (**WIP**) [![Build Status](https://travis-ci.org/solomonhawk/merkle-
 
 A JavaScript implementation of Merkle Trees
 
-Disclaimer: WIP
-
 ![Disclaimer](http://i2.kym-cdn.com/photos/images/original/000/638/208/3d1.gif)
 
 If you're looking for something to use I would recommend that you [search NPM](https://www.npmjs.org/search?q=merkle).
@@ -66,11 +64,20 @@ Processes an object or array and returns a Merkle Tree object or if invoked with
 a callback, will invoke the callback with either an error or the result of the
 computation.
 
+Contributing
+============
 
-Build
-=====
+## Setup
 
-`npm test` : Runs the jest tests.
-`npm run build` : Runs `webpack -p`, outputting `lib/main.js`
-`npm run build:dev` : Runs `webpack -d --watch`, compiling js with source-maps and
-continuous rebuilds.
+Running the following command will get you up and running quickly. From the root
+of the project:
+
+	$ script/setup
+
+## Build
+
+Command | Description
+------- | -----------
+`$ npm test` | Runs unit tests with [Jest](http://github.com/facebook/jest).
+`$ npm run build` | Builds `lib/main.js` with `webpack -p`
+`$ npm run build:dev` | Runs `webpack -d --watch`, for development
