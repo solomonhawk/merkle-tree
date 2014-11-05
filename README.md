@@ -66,11 +66,20 @@ Processes an object or array and returns a Merkle Tree object or if invoked with
 a callback, will invoke the callback with either an error or the result of the
 computation.
 
+Contributing
+============
 
-Build
-=====
+## Setup
 
-`npm test` : Runs the jest tests.
-`npm run build` : Runs `webpack -p`, outputting `lib/main.js`
-`npm run build:dev` : Runs `webpack -d --watch`, compiling js with source-maps and
-continuous rebuilds.
+Running the following command will get you up and running quickly. From the root
+of the project:
+
+	$ script/setup
+
+## Build
+
+Command | Description
+------- | -----------
+`$ npm test` | Runs unit tests with [Jest](http://github.com/facebook/jest).
+`$ npm run build` | Builds `lib/main.js` with `webpack -p`
+`$ npm run build:dev` | Runs `webpack -d --watch`, for development

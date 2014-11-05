@@ -21,19 +21,12 @@
 
 var crypto = require('crypto');
 
-var foo = { a: 1, b: 2 };
-
 var MerkleTree = function() {
   this.hash      = 'md5';
   this.nodeCount = 0;
   this.depth     = 0;
   this.leaves    = [];
   this.levels    = [];
-
-  var { a, b } = foo;
-
-  this.a = a;
-  this.b = b;
 
   return this;
 }
