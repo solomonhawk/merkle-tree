@@ -41,6 +41,7 @@ Tree.use('md5').process(data, function(err, result){
 }
 ```
 
+
 API
 ===
 
@@ -65,4 +66,11 @@ Processes an object or array and returns a Merkle Tree object or if invoked with
 a callback, will invoke the callback with either an error or the result of the
 computation.
 
-##
+
+Build
+=====
+
+`npm test` : Runs the jest tests.
+`npm run build` : Runs `webpack -p`, outputting `lib/main.js`
+`npm run build:dev` : Runs `webpack -d --watch`, compiling js with source-maps and
+continuous rebuilds.
